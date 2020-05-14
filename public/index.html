@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teris</title>
+    <style>
+        #root{
+            position: relative;
+            margin: 0 auto;
+            display: flex;
+        }
+        #panel{
+            position: relative;
+            background-color: #000;
+        }
+        #tip{
+            flex: 1;
+            position: relative;
+            background-color:aqua;
+            display: flex;
+            flex-direction: column;
+        }
+        #take{
+            height: 60px;
+            position: relative;
+            width: 200px;
+            text-align: center;
+        }
+        #nexttip{
+            position: relative;
+            height: 120px;
+            width: 200px;
+            background-color: bisque;
+        }
+        #score{
+            flex: 1;
+            position: relative;
+            background-color: red;
+            display: flex;
+            flex-direction: column;
+        }
+        .score_title{
+            font-size: 30px;
+            text-align: center;
+        }
+        #score_num{
+            text-align: center;
+            font-size: 32px;
+        }
+        #over{
+            width: 120px;
+            height: 60px;
+            text-align: center;
+            line-height: 30px;
+            background-color: red;
+            color: #fff;
+            position: relative;
+            margin:50% auto;
+            display: none;
+            z-index: 999;
+        }
+    </style>
+</head>
+<body>
+    <div id="root">
+        <div id="panel">
+            <div id="over"></div>
+        </div>
+        <div id="tip">
+            <div id="take">俄罗斯方块</div>
+            <div id="nexttip"></div>
+            <div class="score">
+                <div class="score_title">得分</div>
+                <div id="score_num">0</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

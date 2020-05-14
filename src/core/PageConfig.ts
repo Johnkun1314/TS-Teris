@@ -1,0 +1,46 @@
+export default {
+    SquareSize:{
+        width:30,
+        height:30
+    },
+    panelSize:{
+        width:15,
+        height:20
+    },
+    nextSize:{
+        width:6,
+        height:4
+    },
+    speed:[
+        {
+            score:30,
+            duration:900
+        },
+        {
+            score:80,
+            duration:800
+        },
+        {
+            score:120,
+            duration:700
+        },
+        {
+            score:200,
+            duration:500
+        },
+        {
+            score:350,
+            duration:200
+        },
+        {
+            score:400,
+            duration:100
+        },
+        {
+            score:550,
+            duration:50
+        }
+    ]
+}
+
+ 
